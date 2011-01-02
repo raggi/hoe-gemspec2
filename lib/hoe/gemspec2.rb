@@ -1,4 +1,4 @@
-module Hoe::Gemspec
+module Hoe::Gemspec2
   VERSION = '1.1.0'
 
   def define_gemspec_tasks

@@ -1,12 +1,12 @@
-= hoe-gemspec
+= hoe-gemspec2
 
-http://rubygems.org/gems/hoe-gemspec
+http://rubygems.org/gems/hoe-gemspec2
 
-{Project}[http://rubygems.org/gems/hoe-gemspec]
-{Documentation}[http://libraggi.rubyforge.org/hoe-gemspec/README_rdoc.html]
-{Wiki}[http://wiki.github.com/raggi/hoe-gemspec/]
-{Source Code}[http://github.com/raggi/hoe-gemspec/]
-{Issues}[http://github.com/raggi/hoe-gemspec/issues]
+{Project}[http://rubygems.org/gems/hoe-gemspec2]
+{Documentation}[http://libraggi.rubyforge.org/hoe-gemspec2/README_rdoc.html]
+{Wiki}[http://wiki.github.com/raggi/hoe-gemspec2/]
+{Source Code}[http://github.com/raggi/hoe-gemspec2/]
+{Issues}[http://github.com/raggi/hoe-gemspec2/issues]
 {Rubyforge}[http://rubyforge.org/projects/libraggi]
 
 == DESCRIPTION:
@@ -20,7 +20,7 @@ Adds support for generation of gemspec files to Hoe.
 
 == SYNOPSIS:
 
-  Hoe.plugin :gemspec
+  Hoe.plugin :gemspec2
 
 == REQUIREMENTS:
 
@@ -28,7 +28,7 @@ Adds support for generation of gemspec files to Hoe.
 
 == INSTALL:
 
-* gem install hoe-gemspec
+* gem install hoe-gemspec2
 
 == LICENSE:
 
