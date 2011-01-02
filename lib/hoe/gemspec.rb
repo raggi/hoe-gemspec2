@@ -1,5 +1,5 @@
 module Hoe::Gemspec
-  VERSION = '1.0.0'
+  VERSION = '1.1.0'
 
   def define_gemspec_tasks
     gemspec = spec.name + '.gemspec'
@@ -10,7 +10,7 @@ module Hoe::Gemspec
       end
     end
 
-    file gemspec => spec.files + %w[Manifest.txt] do
+    file gemspec => %w[clobber Manifest.txt] + spec.files do
       open(gemspec, 'w') { |f| f.write(spec.to_ruby) }
     end
 
