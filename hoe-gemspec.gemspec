@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{Adds support for generation of gemspec files to Hoe.}
   s.email = ["raggi@rubyforge.org"]
   s.extra_rdoc_files = ["Manifest.txt", "CHANGELOG.rdoc", "README.rdoc"]
-  s.files = [".autotest", "CHANGELOG.rdoc", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hoe/gemspec.rb"]
+  s.files = ["CHANGELOG.rdoc", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hoe/gemspec.rb"]
   s.homepage = %q{{Project}[http://rubygems.org/gems/hoe-gemspec]}
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
