@@ -1,5 +1,7 @@
 = hoe-gemspec
 
+http://rubygems.org/gems/hoe-gemspec
+
 {Project}[http://rubygems.org/gems/hoe-gemspec]
 {Documentation}[http://libraggi.rubyforge.org/hoe-gemspec/README_rdoc.html]
 {Wiki}[http://wiki.github.com/raggi/hoe-gemspec/]
