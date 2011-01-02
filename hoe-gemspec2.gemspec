@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{hoe-gemspec}
+  s.name = %q{hoe-gemspec2}
   s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.description = %q{Adds support for generation of gemspec files to Hoe.}
   s.email = ["raggi@rubyforge.org"]
   s.extra_rdoc_files = ["Manifest.txt", "CHANGELOG.rdoc", "README.rdoc"]
-  s.files = ["CHANGELOG.rdoc", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hoe/gemspec.rb"]
-  s.homepage = %q{http://rubygems.org/gems/hoe-gemspec}
+  s.files = ["CHANGELOG.rdoc", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hoe/gemspec2.rb"]
+  s.homepage = %q{http://rubygems.org/gems/hoe-gemspec2}
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{libraggi}
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<hoe-doofus>, [">= 1.0"])
       s.add_development_dependency(%q<hoe-seattlerb>, [">= 1.2"])
       s.add_development_dependency(%q<hoe-git>, [">= 1.3"])
-      s.add_development_dependency(%q<hoe-gemspec>, [">= 0"])
+      s.add_development_dependency(%q<hoe-gemspec2>, [">= 0"])
       s.add_development_dependency(%q<hoe>, [">= 2.8.0"])
     else
       s.add_dependency(%q<hoe>, [">= 0"])
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hoe-doofus>, [">= 1.0"])
       s.add_dependency(%q<hoe-seattlerb>, [">= 1.2"])
       s.add_dependency(%q<hoe-git>, [">= 1.3"])
-      s.add_dependency(%q<hoe-gemspec>, [">= 0"])
+      s.add_dependency(%q<hoe-gemspec2>, [">= 0"])
       s.add_dependency(%q<hoe>, [">= 2.8.0"])
     end
   else
@@ -49,7 +49,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hoe-doofus>, [">= 1.0"])
     s.add_dependency(%q<hoe-seattlerb>, [">= 1.2"])
     s.add_dependency(%q<hoe-git>, [">= 1.3"])
-    s.add_dependency(%q<hoe-gemspec>, [">= 0"])
+    s.add_dependency(%q<hoe-gemspec2>, [">= 0"])
     s.add_dependency(%q<hoe>, [">= 2.8.0"])
   end
 end

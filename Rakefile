@@ -1,7 +1,7 @@
 #!/usr/bin/env rake
 
 require 'hoe'
-Hoe.plugin :doofus, :git, :minitest, :gemspec, :rubyforge
+Hoe.plugin :doofus, :git, :minitest, :gemspec2, :rubyforge
 
 Hoe.spec 'hoe-gemspec2' do
   developer 'raggi', 'raggi@rubyforge.org'

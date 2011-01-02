@@ -1,7 +1,7 @@
 module Hoe::Gemspec2
   VERSION = '1.1.0'
 
-  def define_gemspec_tasks
+  def define_gemspec2_tasks
     gemspec = spec.name + '.gemspec'
 
     with_config do |config, _|
