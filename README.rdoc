@@ -11,11 +11,14 @@ http://rubygems.org/gems/hoe-gemspec2
 
 == DESCRIPTION:
 
-Adds support for generation of gemspec files to Hoe.
+Adds support for generation of gemspec files to Hoe. By default, excludes the
+signing key and certificate chain. Use <tt>rake gemspec:full</tt> to include
+the signing key and certificate chain.
 
 == FEATURES/PROBLEMS:
 
 * task: gemspec
+* task: gemspec:full
 * task: default enhanced with gemspec
 
 == SYNOPSIS:
