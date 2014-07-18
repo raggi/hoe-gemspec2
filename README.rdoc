@@ -3,19 +3,21 @@
 http://rubygems.org/gems/hoe-gemspec2
 
 {Project}[http://rubygems.org/gems/hoe-gemspec2]
-{Documentation}[http://libraggi.rubyforge.org/hoe-gemspec2/README_rdoc.html]
+{Documentation}[http://rubydoc.info/github/raggi/hoe-gemspec2]
 {Wiki}[http://wiki.github.com/raggi/hoe-gemspec2/]
 {Source Code}[http://github.com/raggi/hoe-gemspec2/]
 {Issues}[http://github.com/raggi/hoe-gemspec2/issues]
-{Rubyforge}[http://rubyforge.org/projects/libraggi]
 
 == DESCRIPTION:
 
-Adds support for generation of gemspec files to Hoe.
+Adds support for generation of gemspec files to Hoe. By default, excludes the
+signing key and certificate chain. Use <tt>rake gemspec:full</tt> to include
+the signing key and certificate chain.
 
 == FEATURES/PROBLEMS:
 
 * task: gemspec
+* task: gemspec:full
 * task: default enhanced with gemspec
 
 == SYNOPSIS:
