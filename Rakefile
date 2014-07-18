@@ -1,7 +1,10 @@
 #!/usr/bin/env rake
 
 require 'hoe'
-Hoe.plugin :doofus, :git, :minitest, :gemspec2, :rubyforge
+$LOAD_PATH.unshift 'lib'
+require 'hoe/gemspec2' # Our test is to generate our own gemspec
+
+Hoe.plugin :doofus, :git, :minitest, :gemspec2
 
 Hoe.spec 'hoe-gemspec2' do
   developer 'raggi', 'raggi@rubyforge.org'
