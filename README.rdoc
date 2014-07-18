@@ -3,11 +3,10 @@
 http://rubygems.org/gems/hoe-gemspec2
 
 {Project}[http://rubygems.org/gems/hoe-gemspec2]
-{Documentation}[http://libraggi.rubyforge.org/hoe-gemspec2/README_rdoc.html]
+{Documentation}[http://rubydoc.info/github/raggi/hoe-gemspec2]
 {Wiki}[http://wiki.github.com/raggi/hoe-gemspec2/]
 {Source Code}[http://github.com/raggi/hoe-gemspec2/]
 {Issues}[http://github.com/raggi/hoe-gemspec2/issues]
-{Rubyforge}[http://rubyforge.org/projects/libraggi]
 
 == DESCRIPTION:
 
