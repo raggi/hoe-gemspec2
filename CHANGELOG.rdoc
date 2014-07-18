@@ -1,4 +1,4 @@
-=== 1.2.0 / YYYY-MM-DD
+=== 1.2.0 / 2014-07-18
 
 * Automatically exclude +cert_chain+ and +signing_key+, unless called as
   <tt>rake gemspec:full</tt>.
