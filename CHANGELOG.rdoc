@@ -1,7 +1,8 @@
 === 1.3.0 / 2022-03-25
 
 * Add compatibility with modern safe versions of YAML, which makes #load
-  an alias for #safe_load.
+	an alias for #safe_load. Thanks to @nevesenin, Merten Falk, for the
+	contribution!
 
 === 1.2.0 / 2014-07-18
 
