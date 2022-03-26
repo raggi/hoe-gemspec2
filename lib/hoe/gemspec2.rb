@@ -12,7 +12,24 @@ module Hoe::Gemspec2
 
     file gemspec => %w[clobber Manifest.txt] + spec.files do
       open(gemspec, 'w') { |f|
-        spec2 = YAML.load(YAML.dump(spec))
+        permitted_classes = %w[
+          Symbol Time Date Gem::Dependency Gem::Platform Gem::Requirement
+          Gem::Specification Gem::Version Gem::Version::Requirement
+          YAML::Syck::DefaultKey Syck::DefaultKey
+        ]
+        permitted_symbols = %w[development runtime]
+        spec2 = begin
+                  YAML.safe_load(
+                    YAML.dump(spec),
+                    permitted_classes: permitted_classes,
+                    permitted_symbols: permitted_symbols,
+                    aliases: true
+                  )
+                rescue
+                  YAML.safe_load(
+                    YAML.dump(spec), permitted_classes, permitted_symbols, true
+                  )
+                end
 
         unless @include_all
           [ :signing_key, :cert_chain ].each { |name|
