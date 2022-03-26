@@ -1,6 +1,6 @@
 = hoe-gemspec2
 
-http://rubygems.org/gems/hoe-gemspec2
+home :: http://rubygems.org/gems/hoe-gemspec2
 
 {Project}[http://rubygems.org/gems/hoe-gemspec2]
 {Documentation}[http://rubydoc.info/github/raggi/hoe-gemspec2]
