@@ -1,5 +1,5 @@
 module Hoe::Gemspec2
-  VERSION = '1.2.0'
+  VERSION = '1.3.0'
 
   def define_gemspec2_tasks
     gemspec = spec.name + '.gemspec'
@@ -21,9 +21,9 @@ module Hoe::Gemspec2
         spec2 = begin
                   YAML.safe_load(
                     YAML.dump(spec),
-                    permitted_classes: permitted_classes,
-                    permitted_symbols: permitted_symbols,
-                    aliases: true
+                    :permitted_classes => permitted_classes,
+                    :permitted_symbols => permitted_symbols,
+                    :aliases => true
                   )
                 rescue
                   YAML.safe_load(
